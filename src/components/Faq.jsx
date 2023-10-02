@@ -57,7 +57,7 @@ const Faq = () => {
           </div>
           {items.map((item, index) => (
             <div
-              className="rounded-none py-1 -z-10 border border-l-0 border-r-0 border-t-0 border-neutral-200"
+              className="rounded-none py-1  border border-l-0 border-r-0 border-t-0 border-neutral-200"
               key={item.title}
             >
               <h2 className="mb-0">
@@ -84,7 +84,7 @@ const Faq = () => {
                 </button>
               </h2>
               {index === activeIndex && (
-                <div className="py-1 -z-10 ml-8 px-4 lg:text-lg text-xs text-black/70 font-normal ">
+                <div className="py-1 ml-8 px-4 lg:text-lg text-xs text-black/70 font-normal ">
                   {item.content}
                 </div>
               )}

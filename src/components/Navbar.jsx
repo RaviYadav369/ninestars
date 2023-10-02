@@ -170,7 +170,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="lg:hidden relative">
-        <div className="fixed left-0 top-3">
+        <div className="fixed left-0 top-3 z-10">
           
             <NavbarSm />
          
