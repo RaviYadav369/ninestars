@@ -16,13 +16,13 @@ const Portflio = () => {
         <div className="flex flex-col py-5 justify-center items-center mt-3">
           <h2 className="text-2xl font-bold text-black/40">Portflio</h2>
           <p className="lg:text-4xl text-xl py-2 font-bold text-black/70">
-            Check out our beautyfull portflio
+            Check out our beautifull portflio
           </p>
           <div className="w-[70px]  h-[2.5px]  bg-red-400  m-auto my-3" />
           <div>
             <div className="flex py-4 mt-2 gap-2">
               <ol className="flex justify-evenly">
-                <li className="px-4 py-2 text-lg font-bold text-black/70 ">
+                <li className="px-4 py-2 text-lg font-bold text-orange-600/70 ">
                   All
                 </li>
                 <li className="px-4 py-2 text-lg text-black/70 font-bold">

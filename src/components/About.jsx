@@ -10,9 +10,9 @@ const About = () => {
         <img src={aboutImg} alt="about-img" className="w-4/5 ml-4" />
       </div>
       <div className="w-1/2 ">
-        <div className="">
-          <h1 className="lg:text-4xl text-xl">Voluptatem dignissimos provident quasi</h1>
-          <p className="lg:text-lg text-xs py-2">
+        <div className="pr-8">
+          <h1 className="lg:text-4xl text-xl font-bold text-black/70">Voluptatem dignissimos provident quasi</h1>
+          <p className="lg:text-base text-xs py-2 text-black/60">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
             perspiciatis a cupiditate ullam vitae sunt? Unde nostrum iusto
             corporis, iure reprehenderit
@@ -21,20 +21,20 @@ const About = () => {
         <div className="lg:flex hidden  justify-between">
           <div className="py-5">
             <CgFileDocument className="w-11 h-11 my-[10px] text-orange-500/70" />
-            <h2 className="lg:text-2xl text-xl py-1 font-semibold">Corpopus Volptutes sit</h2>
+            <h2 className="lg:text-2xl text-black/70 text-xl py-1 font-semibold">Corpopus Volptutes sit</h2>
 
-            <p className="p-1 pt-2 text-xs lg:text-lg font-normal">
+            <p className="p-1 pt-2 text-xs lg:text-base font-normal text-black/60">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              ducimus hic debitis!=
+              ducimus 
             </p>
           </div>
           <div className="py-5">
             <BiCubeAlt className="w-12 h-12 my-[10px] text-orange-500/70" />
-            <h2 className="lg:text-2xl text-xl font-semibold">Corpopus Volptutes sit</h2>
+            <h2 className="lg:text-2xl text-xl font-semibold text-black/70">Corpopus Volptutes sit</h2>
 
-            <p className="p-1 pt-3 lg:text-lg text-xs font-normal">
+            <p className="p-1 pt-3 lg:text-base text-xs font-normal text-black/60">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              ducimus hic debitis!=
+              ducimus 
             </p>
           </div>
           

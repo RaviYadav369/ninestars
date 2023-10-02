@@ -8,10 +8,10 @@ const Footer = () => {
       <section className=" bg-orange-50/70 lg:pb-10" id="footer">
         <section className="w-11/12 flex flex-col m-auto py-5 ">
           <div className="flex flex-col py-5 justify-center items-center mt-3">
-            <h2 className="text-2xl font-bold text-black/80">
+            <h2 className="text-2xl font-bold text-black/70">
               Join Our Newsletter
             </h2>
-            <p className="text-md py-2 font-semibold text-center text-black/70">
+            <p className="text-md py-2 font-normal text-center text-black/70">
               Lorem ipsum dolor sit amet, conser adiping elit. Veniam quia
               adipisci cumque.
             </p>
@@ -46,7 +46,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="px-4 py-2 lg:py-5">
-              <h2 className="font-semibold text-xl text-black/90">
+              <h2 className="font-extrabold text-md text-black">
                 Useful Links
               </h2>
               <ul className="py-4">
@@ -83,7 +83,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="px-4 py-2 lg:py-5">
-              <h2 className="font-semibold text-xl text-black/90">
+              <h2 className="font-extrabold text-md text-black">
                 Our Sevices
               </h2>
               <ul className="py-4">
@@ -121,7 +121,7 @@ const Footer = () => {
             </div>
             <div className="px-4 py-2 lg:py-5">
               <div>
-                <h2 className="text-xl text-black/80 font-semibold">
+                <h2 className="text-md text-black font-extrabold">
                   Our Socials Networks
                 </h2>
                 <p className="text-black/80 text-sm lg:text-md py-4">

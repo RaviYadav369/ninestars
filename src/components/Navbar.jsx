@@ -98,12 +98,12 @@ const NavbarLg = () => {
     <section className="w-full fixed bg-white shadow-lg z-10 ">
       <div className="w-11/12 flex justify-between mx-auto py-4">
         <div className="pl-4">
-          <h1 className="text-3xl tracking-wider text-black/70">Ninestars</h1>
+          <h1 className="text-3xl tracking-wider text-black/60">Ninestars</h1>
         </div>
         <div className="flex gap-2">
           <ol className="flex justify-evenly">
             <li
-              className={`px-4 py-2 text-lg ${
+              className={`px-4 py-2 text-md ${
                 isActive === "home" ? "text-orange-400 " : "text-black/60"
               } font-semibold`}
               onClick={() => setisActive("home")}
@@ -111,7 +111,7 @@ const NavbarLg = () => {
               <AnchorLink href="#home">Home</AnchorLink>
             </li>
             <li
-              className={`px-4 py-2 text-lg ${
+              className={`px-4 py-2 text-md ${
                 isActive === "about" ? "text-orange-400 " : "text-black/60"
               } font-semibold`}
               onClick={() => setisActive("about")}
@@ -119,7 +119,7 @@ const NavbarLg = () => {
               <AnchorLink href="#about">About Us</AnchorLink>
             </li>
             <li
-              className={`px-4 py-2 text-lg ${
+              className={`px-4 py-2 text-md ${
                 isActive === "services" ? "text-orange-400 " : "text-black/60"
               } font-semibold`}
               onClick={() => setisActive("services")}
@@ -127,7 +127,7 @@ const NavbarLg = () => {
               <AnchorLink href="#services">Services</AnchorLink>
             </li>
             <li
-              className={`px-4 py-2 text-lg ${
+              className={`px-4 py-2 text-md ${
                 isActive === "portfolio" ? "text-orange-400 " : "text-black/60"
               } font-semibold`}
               onClick={() => setisActive("portfolio")}
@@ -135,21 +135,21 @@ const NavbarLg = () => {
               <AnchorLink href="#portfolio">Portfolio</AnchorLink>
             </li>
             <li
-              className={`px-4 py-2 text-lg ${
+              className={`px-4 py-2 text-md ${
                 isActive === "team" ? "text-orange-400 " : "text-black/60"
               } font-semibold`}
               onClick={() => setisActive("team")}
             >
               <AnchorLink href="#team">Team</AnchorLink>
             </li>
-            <li className="px-4 py-2 text-lg text-black/60 font-semibold">
+            <li className="px-4 py-2 text-md text-black/60 font-semibold">
               Drop Down{" "}
               <span className="inline ">
                 <IoIosArrowDown className="w-4 h-4 inline" />{" "}
               </span>{" "}
             </li>
             <li
-              className={`px-4 py-2 text-lg ${
+              className={`px-4 py-2 text-md ${
                 isActive === "contact" ? "text-orange-400 " : "text-black/60"
               } font-semibold`}
               onClick={() => setisActive("contact")}
@@ -157,7 +157,7 @@ const NavbarLg = () => {
               <AnchorLink href="#contact">Contact</AnchorLink>
             </li>
           </ol>
-          <button className="bg-orange-600 text-white px-5 text-lg py-2 rounded-full">
+          <button className="bg-orange-600 text-white px-5 text-md py-2 rounded-full">
             Get Started
           </button>
         </div>

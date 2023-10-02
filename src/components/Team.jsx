@@ -11,7 +11,7 @@ const Team = () => {
       <section className="w-11/12 flex flex-col m-auto py-5 ">
         <div className="flex flex-col py-5 justify-center items-center mt-3">
           <h2 className="text-2xl font-bold text-black/40">Team</h2>
-          <p className="lg:text-4xl text-xl py-2 font-bold text-black/80">
+          <p className="lg:text-4xl text-xl py-2 font-bold text-black/70">
             Our Team is always here to helps
           </p>
           <div className="w-[70px]  h-[2.5px]  bg-red-400  m-auto my-2" />

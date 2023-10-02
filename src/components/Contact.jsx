@@ -56,7 +56,7 @@ const Contact = () => {
             <div>
               <div className="flex lg:flex-row flex-col g-4 py-2">
                 <div className="flex flex-col lg:w-1/2 lg:mr-8">
-                  <label className="text-2xl font-semibold py-1 text-black/70">
+                  <label className="lg:text-2xl text-xl font-semibold py-1 text-black/70">
                     Your Name
                   </label>
                   <input
@@ -66,7 +66,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="flex flex-col lg:w-1/2">
-                  <label className="text-2xl font-semibold py-1 text-black/70">
+                  <label className="lg:text-2xl text-xl font-semibold py-1 text-black/70">
                     Your Email
                   </label>
                   <input
@@ -77,7 +77,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="flex flex-col w-full py-2">
-                <label className="text-2xl font-semibold py-1 text-black/70">
+                <label className="lg:text-2xl text-xl font-semibold py-1 text-black/70">
                   Subject
                 </label>
                 <input
@@ -87,7 +87,7 @@ const Contact = () => {
                 />
               </div>
               <div className="flex flex-col w-full py-2">
-                <label className="text-2xl font-semibold py-1 text-black/70">
+                <label className="lg:text-2xl text-xl font-semibold py-1 text-black/70">
                   Message
                 </label>
                 <textarea

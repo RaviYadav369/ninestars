@@ -44,7 +44,7 @@ const Faq = () => {
 
   return (
     <>
-      <div className="bg-red-50/50 lg:py-12 px-2 lg:px-10" id="faq">
+      <div className="bg-orange-50/50 lg:py-12 px-2 lg:px-10" id="faq">
         <div className="w-11/12 flex flex-col m-auto pb-8">
           <div className="flex flex-col items-center justify-center mb-6">
             <h2 className="font-bold text-2xl text-black/40 align-middle py-1">
@@ -62,7 +62,7 @@ const Faq = () => {
             >
               <h2 className="mb-0">
                 <button
-                  className="group relative flex w-full items-center rounded-none border-0 py-4 px-5 text-sm lg:text-xl text-left font-semibold transition"
+                  className="group relative flex w-full items-center text-black/70 tracking-wide rounded-none border-0 py-4 px-5 text-sm lg:text-lg text-left font-semibold transition"
                   type="button"
                   onClick={() => handleClick(index)}
                 >
