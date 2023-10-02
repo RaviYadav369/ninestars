@@ -1,0 +1,40 @@
+
+.tag {
+    text-align: center;
+}
+ 
+.slick-slide img {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+
+.slick-dots li.slick-active button:before {
+    color:rgb(246, 65, 10) !important;
+    font-size: medium ;
+}
+.slick-dots li button::before {
+
+    font-size: medium;
+}
+
+@media only screen and (max-width: 600px) {
+    .slick-list{
+        z-index: -10;
+    }
+    .slick-slide img {
+        margin: auto;
+        width: 80%;
+        height: 80%;
+    }
+    .slick-dots li.slick-active button:before {
+        color:rgb(246, 65, 10) !important;
+        font-size: small ;
+        z-index: -10;
+    }
+    .slick-dots li button::before {
+        z-index: -10;
+        font-size: small;
+    }
+  }
